@@ -7,7 +7,7 @@ from skills_extraction import extract_top_skills
 
 def main():
     # Step 1: Load and preprocess data
-    resume_data = load_and_preprocess_data('/mnt/data/UpdatedResumeDataSet.csv')
+    resume_data = load_and_preprocess_data('/home/maxx/Documents/GitHub/Resume-Checker/UpdatedResumeDataSet.csv')
     
     # Step 2: Vectorize the preprocessed text data
     tfidf_matrix, tfidf_vectorizer = vectorize_text(resume_data['Processed_Resume'])
