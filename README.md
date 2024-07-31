@@ -1,6 +1,6 @@
 # Resume Parser with AI and Machine Learning
 
-This project aims to build a resume parser using AI and machine learning techniques to automate the process of skimming through resumes and identifying the best candidates for job positions. The parser processes resumes, identifies key skills, clusters similar resumes, and assigns a score to each resume based on the identified skills.
+This project is a resume parser using AI and machine learning techniques to automate the process of skimming through resumes and identifying the best candidates for job positions. The parser processes resumes, identifies key skills, clusters similar resumes, and assigns a score to each resume based on the identified skills. The resumes are then ranked from best to worst based on the set keywords and saved into a csv.
 
 ## Project Structure
 
@@ -25,4 +25,9 @@ The project is organized into several Python scripts, each responsible for a spe
    pip install -r requirements.txt
 
 ## Running Program
+1. Edit key skills in main.py
+
+2. Use command to run program: 
    python main.py
+   
+3.  Close PCA chart to see Top skills per cluster
