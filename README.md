@@ -22,12 +22,14 @@ The project is organized into several Python scripts, each responsible for a spe
    cd resume-parser
 
 2. Install dependancies:
+   ```sh
    pip install -r requirements.txt
 
 ## Running Program
-1. Edit key skills in main.py
+1. Edit key skills in **`main.py`**
 
-2. Use command to run program: 
-   python main.py
+2. Use command to run program:
+    ```sh
+   python3 main.py
    
-3.  Close PCA chart to see Top skills per cluster
+4.  Close PCA chart to see Top skills per cluster
